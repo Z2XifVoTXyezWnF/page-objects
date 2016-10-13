@@ -14,7 +14,7 @@ dependencies {
 tasks.withType(Test) {
     useTestNG()
     systemProperties = System.getProperties()
-    maxParallelForks = 2
+    maxParallelForks = 1
 }
 
 task includegroup1(type: Test) {
